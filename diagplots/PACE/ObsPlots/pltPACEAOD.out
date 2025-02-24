@@ -1,0 +1,17 @@
++ module load miniconda3/24.3.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ python plt_PACE_AOD_IODAV3_multiChans_00Z200Z.py
+/work/noaa/wrf-chem/bhuang/NRTdata_UFS-Aerosols/AODObs/NASA_PACE_OCI//2024032300/NASA_PACE_OCI_AOD_2024032300.nc
+/work/noaa/wrf-chem/bhuang/NRTdata_UFS-Aerosols/AODObs/NASA_PACE_OCI//2024032306/NASA_PACE_OCI_AOD_2024032306.nc
+/work/noaa/wrf-chem/bhuang/NRTdata_UFS-Aerosols/AODObs/NASA_PACE_OCI//2024032312/NASA_PACE_OCI_AOD_2024032312.nc
+/work/noaa/wrf-chem/bhuang/NRTdata_UFS-Aerosols/AODObs/NASA_PACE_OCI//2024032318/NASA_PACE_OCI_AOD_2024032318.nc
+/work/noaa/wrf-chem/bhuang/NRTdata_UFS-Aerosols/AODObs/NASA_PACE_OCI//2024032400/NASA_PACE_OCI_AOD_2024032400.nc
++ exit

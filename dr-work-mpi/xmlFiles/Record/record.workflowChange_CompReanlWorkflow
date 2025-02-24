@@ -1,0 +1,7 @@
+(1) parm/ufs/gocart/SU2G_instance_SU.rc
+### 10 # Volcanic pointwise sources
+### 11 #volcano_srcfilen: ExtData/nexus/VOLCANO/v2021-09/%y4/%m2/so2_volcanic_emissions_Carns.%y4%m2%d2.rc
+### 12 volcano_srcfilen: ExtData/nexus/VOLCANO/v2021-09/so2_volcanic_emissions_CARN_v202005.degassing_only.rc
+(2) jobs/rocoto/pertaeroemis_mpi.sh (for GBBEPXv4)
+###125     #GBBEPx_VAR="'BC','CH4','CO','CO2','MeanFRP','NH3','NOx','OC','PM2.5','SO2'"
+###126     GBBEPx_VAR="'BC','CO','CO2','MeanFRP','NH3','NOx','OC','PM2.5','SO2'"

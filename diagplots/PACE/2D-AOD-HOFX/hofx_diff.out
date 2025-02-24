@@ -1,0 +1,65 @@
++ module load miniconda3/24.3.0
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
+++ pwd
++ codedir=/home/bohuang/PACE/2D-AOD-HOFX
++ topexpdir=/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model/
++ ndate=/home/bohuang/Workflow/UFS-Aerosols_NRTcyc/UFS-Aerosols-EP4_JEDI-AeroDA-Reanl-Hercules-20231213Model/misc/ndate/ndate
++ pyexec=plt_VIIRS_AOD_HOFX_DIFF_MultChans-2024032300-2024032400-Keep0.py
++ cycst=2024032300
++ cyced=2024032300
++ cycinc=30
++ aerodaexp=AeroDA_Chan_1_4_5_20240323
++ exps=AeroDA_Chan_1_4_5_20240323
++ for exp in ${exps}
++ topplotdir=/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/diagplots/VIIRS_AOD_HOFX_DIFF
++ grep AeroDA_Chan_1_4_5_20240323
++ echo AeroDA_Chan_1_4_5_20240323
+AeroDA_Chan_1_4_5_20240323
++ aeroda=True
++ emean=False
++ prefix=AeroDA_Chan_1_4_5
++ datadir=/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data
++ plotdir=/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/diagplots/VIIRS_AOD_HOFX_DIFF/AeroDA_Chan_1_4_5
++ [[ ! -d /work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/diagplots/VIIRS_AOD_HOFX_DIFF/AeroDA_Chan_1_4_5 ]]
++ cp plt_VIIRS_AOD_HOFX_DIFF_MultChans-2024032300-2024032400-Keep0.py /work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/diagplots/VIIRS_AOD_HOFX_DIFF/AeroDA_Chan_1_4_5/
++ cd /work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/diagplots/VIIRS_AOD_HOFX_DIFF/AeroDA_Chan_1_4_5/
++ cyc=2024032300
++ '[' 2024032300 -le 2024032300 ']'
++ echo 2024032300
+2024032300
++ python plt_VIIRS_AOD_HOFX_DIFF_MultChans-2024032300-2024032400-Keep0.py -c 2024032300 -i 30 -a True -m False -p AeroDA_Chan_1_4_5 -t /work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data
+HBO-True-False
+False
+<class 'bool'>
+--AeroDA_Chan_1_4_5-cntlBkg
+2024032300
+2024032300
+2024032406
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/00/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_2024032300.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/06/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_2024032306.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/12/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_2024032312.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/18/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_2024032318.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240324/00/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_2024032400.nc4
+--AeroDA_Chan_1_4_5-cntlAnl
+2024032300
+2024032300
+2024032406
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/00/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_aeroanl_2024032300.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/06/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_aeroanl_2024032306.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/12/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_aeroanl_2024032312.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240323/18/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_aeroanl_2024032318.nc4
+/work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model//AeroDA_Chan_1_4_5_20240323/dr-data/gdas.20240324/00/diag//NASA_PACE_OCI_obs_hofx_3dvar_LUTs_fv_tracer_aeroanl_2024032400.nc4
++ ERR=0
++ [[ 0 -ne 0 ]]
+++ /home/bohuang/Workflow/UFS-Aerosols_NRTcyc/UFS-Aerosols-EP4_JEDI-AeroDA-Reanl-Hercules-20231213Model/misc/ndate/ndate 30 2024032300
++ cyc=2024032406
++ '[' 2024032406 -le 2024032300 ']'
++ exit 0

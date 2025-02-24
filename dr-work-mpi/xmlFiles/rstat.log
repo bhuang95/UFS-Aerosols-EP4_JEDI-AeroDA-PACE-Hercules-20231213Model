@@ -1,0 +1,1 @@
+/apps/contrib/rocoto/1.3.6/bin/rocotostat -w /home/bohuang/Workflow/UFS-Aerosols_NRTcyc/UFS-Aerosols-EP4_JEDI-AeroDA-PACE-Hercules-20231213Model/dr-work-mpi/xmlFiles/.xml -d /work/noaa/gsd-fv3-dev/bhuang/expRuns/UFS-Aerosols_RETcyc/PACE-20231213Model/xmlDB/.db
